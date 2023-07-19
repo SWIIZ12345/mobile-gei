@@ -1,0 +1,184 @@
+img
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+nav li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    
+}
+nav li a
+{
+text-decoration: none;
+}
+.bouton a
+{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid red;
+    font-size: xx-large;
+    color: white;
+    margin: 12px;
+    padding: 9px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* box-shadow: 0 7px 15px black*/;
+   border-bottom: 5px inset black;
+}
+
+.logo h3
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo
+{
+    flex: 1;
+    float: left;
+}
+.social
+{
+    padding: 8px;
+}
+/*span
+{
+    color: orangered;
+    font-size: 40px;
+    top: 25px;
+}*/
+.bouton a:hover
+{
+    color: yellow;
+    margin: 12px;
+    padding: 9px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+nav li:hover
+{
+    background-color: azure;
+    color: blue;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 6px;
+}
+.bannière
+{
+    color: white;
+    text-align: center;
+    background: url(image/llllllll.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 7px 15px black;
+
+}
+.bannière a
+{
+    position: relative;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 50px;
+    border: 0px solid black;
+    font-size: xx-large;
+    color: white;
+    margin: 12px;
+    padding: 9px; 
+    top: 30%;
+}
+.bannière a:hover
+{
+    color: yellow;
+    margin: 12px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 9px;
+    background-color: green;
+}
+.bannière h1
+{
+    position: relative;
+    width: 60%;
+    top: 30%;
+    left: 20%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer p{
+    position: relative;
+    bottom: 10px;
+    font-size: xx-large;
+    color: white;
+}
+.social{
+    position: relative;
+    top: 10px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.social img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    top: 10px;
+}
+    label{
+        margin-left: 330px;
+        display: flex;
+
+    }
+    form h2{
+        display: flex;
+        margin-left: 330px;
+
+    }
+    form{
+        text-align: center;
+        color: white;
+        font-size: xx-large;
+        background-size: cover;
+        background-position: center;
+        background-repeat:no-repeat ;
+        background: url(image/ooooooo.jpeg);
+    }
+    input{
+        width: 50%;
+        border-radius: 10px;
+        height: 40px;
+    }
+    textarea{
+        width: 50%;
+        border-radius: 10px;
+    }
+    input[type="submit"]{
+        width: 150px;
+        font-size: xx-large;
+        height: 60px;
+    }
+    input[type="submit"]:hover{
+        color: white;
+        background-color: green;
+        width: 150px;
+    }
+    span{
+        color: blue;
+    }
